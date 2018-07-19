@@ -128,7 +128,7 @@
                         div.transition().duration(200)
                             .style('opacity', 1);
                         div.html('<input type="image" style="position: absolute; right: 2%;" src="images/close.png" alt="" onClick="closeTooltip();">' +
-                            '<table id="tooltip_table" width="95%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="2"><b>' + 
+                            '<table id="tooltip_table" width="95%" border="1" cellspacing="0" cellpadding="0"><tr><td colspan="2"><b>' + 
                             d.Result + '</b></td></tr>' +
                             '<tr><td width="50%"><a href="images/' + d.Image +
                             '.jpg" data-fancybox data-caption="' + d.Result +
