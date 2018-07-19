@@ -7,7 +7,7 @@
         }).addTo(map);
 
         var marker;
-        marker = L.marker([35.696228, 139.419084]).addTo(map)
+        marker = L.marker([35.883900, 139.626195]).addTo(map)
             .bindPopup('<font size="32px" color="red">●</font><font size="10px">をタップで<br>&nbsp;&nbsp;情報表示</font>')
             .openPopup();
 
