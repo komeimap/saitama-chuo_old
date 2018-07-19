@@ -36,8 +36,7 @@
             } else {
                 console.log(link.length);
                 //return '</br><a href="' + link + '">詳細</a>';
-                //return '</br><a id="syousai" href="' + link + '" onclick="window.open(this.href); return false;">詳細</a>'
-		return " ";
+                return '</br><a id="syousai" href="' + link + '" onclick="window.open(this.href); return false;">詳細</a>'
             };
         }
 
