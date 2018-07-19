@@ -1,4 +1,4 @@
-        var map = L.map('map').setView([35.696228, 139.419084], 16);
+        var map = L.map('map').setView([35.883900, 139.626195], 16);
 
         mapLink = '<a href="https://openstreetmap.org">OpenStreetMap</a>';
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -36,10 +36,9 @@
             } else {
                 console.log(link.length);
                 //return '</br><a href="' + link + '">詳細</a>';
-                return '</br><a id="syousai" href="' + link + '" onclick="window.open(this.href); return false;">詳細</a>'
+                //return '</br><a id="syousai" href="' + link + '" onclick="window.open(this.href); return false;">詳細</a>'
+		return " ";
             };
-
-
         }
 
 
