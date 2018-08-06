@@ -1,4 +1,4 @@
-        var map = L.map('map').setView([35.883900, 139.626195], 26);
+        var map = L.map('map').setView([35.883900, 139.626195], 10);
 
         mapLink = '<a href="https://openstreetmap.org">OpenStreetMap</a>';
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
