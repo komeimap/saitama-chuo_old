@@ -76,7 +76,7 @@
         <td/>
         <td style="padding: 4.5px 0px 0px 0px">
         <!-- LINE -->
-        <div class="line-it-button" data-lang="ja" data-type="share-a" data-url="https://komeimap.github.io/saitama-chuo?openExternalBrowser=1/" style="display: none;"></div>
+        <div class="line-it-button" data-lang="ja" data-type="share-a" data-url="https://komeimap.github.io/saitama-chuo?openExternalBrowser=1" style="display: none;"></div>
         <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
         <td/>
         <tr/>
